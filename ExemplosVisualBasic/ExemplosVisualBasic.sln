@@ -15,6 +15,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "EstruturasRepeticoes", "Est
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "EstruturaRepeticoes2", "EstruturaRepeticoes2\EstruturaRepeticoes2.vbproj", "{E56801D5-B9F4-4F25-A0E8-A03C0071F602}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Funcoes", "Funcoes\Funcoes.vbproj", "{4617046B-F428-427F-B52D-629138930096}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{E56801D5-B9F4-4F25-A0E8-A03C0071F602}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E56801D5-B9F4-4F25-A0E8-A03C0071F602}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E56801D5-B9F4-4F25-A0E8-A03C0071F602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4617046B-F428-427F-B52D-629138930096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4617046B-F428-427F-B52D-629138930096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4617046B-F428-427F-B52D-629138930096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4617046B-F428-427F-B52D-629138930096}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
