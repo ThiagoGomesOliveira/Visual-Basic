@@ -27,12 +27,15 @@ Partial Class Form1
         Me.BtnTamanho = New System.Windows.Forms.Button()
         Me.BtnCaracter = New System.Windows.Forms.Button()
         Me.BtnConcatenar = New System.Windows.Forms.Button()
+        Me.BtnJuntar = New System.Windows.Forms.Button()
+        Me.BtnMaisc = New System.Windows.Forms.Button()
+        Me.BtnMinusc = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'lblString
         '
         Me.lblString.AutoSize = True
-        Me.lblString.Location = New System.Drawing.Point(102, 27)
+        Me.lblString.Location = New System.Drawing.Point(39, 19)
         Me.lblString.Name = "lblString"
         Me.lblString.Size = New System.Drawing.Size(0, 13)
         Me.lblString.TabIndex = 0
@@ -72,11 +75,41 @@ Partial Class Form1
         Me.BtnConcatenar.Text = "Concatenar"
         Me.BtnConcatenar.UseVisualStyleBackColor = True
         '
+        'BtnJuntar
+        '
+        Me.BtnJuntar.Location = New System.Drawing.Point(12, 153)
+        Me.BtnJuntar.Name = "BtnJuntar"
+        Me.BtnJuntar.Size = New System.Drawing.Size(75, 23)
+        Me.BtnJuntar.TabIndex = 5
+        Me.BtnJuntar.Text = "Juntar "
+        Me.BtnJuntar.UseVisualStyleBackColor = True
+        '
+        'BtnMaisc
+        '
+        Me.BtnMaisc.Location = New System.Drawing.Point(105, 153)
+        Me.BtnMaisc.Name = "BtnMaisc"
+        Me.BtnMaisc.Size = New System.Drawing.Size(75, 23)
+        Me.BtnMaisc.TabIndex = 6
+        Me.BtnMaisc.Text = "Maiusculas"
+        Me.BtnMaisc.UseVisualStyleBackColor = True
+        '
+        'BtnMinusc
+        '
+        Me.BtnMinusc.Location = New System.Drawing.Point(197, 153)
+        Me.BtnMinusc.Name = "BtnMinusc"
+        Me.BtnMinusc.Size = New System.Drawing.Size(75, 23)
+        Me.BtnMinusc.TabIndex = 7
+        Me.BtnMinusc.Text = "Minusculas"
+        Me.BtnMinusc.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 261)
+        Me.Controls.Add(Me.BtnMinusc)
+        Me.Controls.Add(Me.BtnMaisc)
+        Me.Controls.Add(Me.BtnJuntar)
         Me.Controls.Add(Me.BtnConcatenar)
         Me.Controls.Add(Me.BtnCaracter)
         Me.Controls.Add(Me.BtnTamanho)
@@ -94,4 +127,7 @@ Partial Class Form1
     Friend WithEvents BtnTamanho As Button
     Friend WithEvents BtnCaracter As Button
     Friend WithEvents BtnConcatenar As Button
+    Friend WithEvents BtnJuntar As Button
+    Friend WithEvents BtnMaisc As Button
+    Friend WithEvents BtnMinusc As Button
 End Class
